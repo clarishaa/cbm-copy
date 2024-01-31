@@ -22,7 +22,7 @@
                     <div class="portfolio-wrapper">
                         <div class="portfolio-inner rounded">
                             <!-- Image -->
-                            <img class="img-fluid menu" :src="`https://cbmlaminsu.online/backend/uploads/${menu.img_path}`" alt="" />
+                            <img class="img-fluid menu" :src="`http://localhost:8080/uploads/${menu.img_path}`" alt="" />
 
                             <!-- Description -->
                             <div class="portfolio-text">

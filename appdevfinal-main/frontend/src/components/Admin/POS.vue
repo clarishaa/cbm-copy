@@ -25,7 +25,7 @@
                                 <figure class="card card-product"
                                     style="height: 230px; border: 1px solid #ccc; border-radius: 10px; overflow: hidden; position: relative;">
                                     <div class="img-wrap" style="height: 70%;">
-                                        <img :src="`https://cbmlaminsu.online/backend/uploads/${menu.img_path}`"
+                                        <img :src="`http://localhost:8080/uploads/${menu.img_path}`"
                                             alt="menu.name" class="img-fluid"
                                             style="object-fit: cover; width: 100%; height: 100%;">
                                     </div>
@@ -79,7 +79,7 @@
                                             <td>
                                                 <div class="media">
                                                     <div class="img-wrap">
-                                                        <img :src="`https://cbmlaminsu.online/backend/uploads/${cart.img_path}`"
+                                                        <img :src="`http://localhost:8080/uploads/${cart.img_path}`"
                                                             class="img-xs" alt="" style="width: 75px; height: 75px;">
                                                     </div>
                                                     <div class="media-body" style="margin-top: 5px;">
